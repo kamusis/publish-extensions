@@ -1181,6 +1181,9 @@
     "repository": "https://github.com/pj3677/vscode-protobuf",
     "prepublish": "[ $VERSION = '0.0.3' ] && sed -i 's/\\(\"icon\": \".*\\.\\)svg\\(\"\\)/\\1png\\2/g' package.json && npx svgexport ./images/protobuficon.svg ./images/protobuficon.png || true"
   },
+  "picgo.vs-picgo": {
+    "repository": "https://github.com/PicGo/vs-picgo/"
+  },  
   "pflannery.vscode-versionlens": {
     "repository": "https://gitlab.com/versionlens/vscode-versionlens/"
   },
